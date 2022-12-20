@@ -1,8 +1,7 @@
-Composite: When I login with email `${email}` and password `${password}`
+Composite: When I login with $email and $password
 When I click on element located by `caseSensitiveText(Log in)`
 When I wait until element located `id(user)` appears
 When I enter `<email>` in field located `id(user)`
 When I click on element located `id(login)`
 When I wait until element located `id(password)` appears
 When I enter `<password>` in field located `id(password)`
-When I click on element located `id(login-submit)`
