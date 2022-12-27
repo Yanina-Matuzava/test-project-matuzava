@@ -1,6 +1,6 @@
 Scenario: Log-in with invalid data
 Given I am on the main application page
-When I login with yaninochka2008@tut.by and J258147hh
+When I login with test@qa.com and J258147hh
 When I click on element located `id(login)`
 Then number of elements found by `By.xpath(//*[@id="error" and @class="quick-switch"])` is = `1`
 
